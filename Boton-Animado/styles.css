@@ -1,0 +1,21 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.boton {
+  font: 1em sans-serif;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+}
+
+.boton:hover {
+  background-color: red;
+  height: 100px;
+}
